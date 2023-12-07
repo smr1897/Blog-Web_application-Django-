@@ -28,6 +28,6 @@ def home(request):
 
 def log(request):
     # return HttpResponse('<h1>This is log</h1><p>lorem</p>')
-    return render(request , 'blog/about.html')
+    return render(request , 'blog/about.html' , {'title' : 'about'})
 
     
